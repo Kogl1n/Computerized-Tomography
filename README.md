@@ -1,6 +1,9 @@
 # Computerized-Tomography
 Matlab Code for performing the Backprojection of a crescend-shaped object needed for Computerized-Thomography (CT).
 
+## Note: 
+The main obstacle was that the discrete circular convolution has negative indices whereas our initial implementation just shifted the values to the right, which lead to a flawed but somehow recognizable result.
+
 # Files
 ```
 convp.m: (circular) convolution h of the discrete N-periodic functions f and g.
