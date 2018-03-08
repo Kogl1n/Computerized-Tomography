@@ -10,7 +10,7 @@ The main obstacle was that the discrete circular convolution has negative indice
 ct.m: Script creating a crescend-shaped object and performing the Radon transform on it.
 convp.m: (circular) convolution h of the discrete N-periodic functions f and g.
 convp2.m: discrete convolution of N-periodic function f (as row vector) and NxM matrix A
-backproj1.m: Main Script performing the backprojection.
+Exercise_3_5.m: Main Script performing the filtered backprojection (FBP) using convp.m or convp2.m.
 
 kaczmarz.m: Performs the reconstruction using the Algebraic Reconstruction Technique (ART).
 ```
