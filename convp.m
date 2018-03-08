@@ -1,5 +1,5 @@
 function h = convp( f,g )
-% Convolution convp( f,g )
+% Discrete Convolution convp( f,g )
 % Input: vectors of f- and g-values. Must be of the same type!
 % Output: (circular) convolution h of the discrete N-periodic 
 %         functions f and g.
