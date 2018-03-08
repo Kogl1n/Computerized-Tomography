@@ -16,6 +16,8 @@ for m=1:N
 % But in Matlab there are no indizes m-k<=0.
 % So split k up into 1:m and m+1:N: 
 % f_1*g_m, ... , f_m*g_1, f_m+1*g_N, ... , f_N*g_m+1.
+
+% Note: We avoided an explicit for-loop by using vector notation.
 end
 
 end
