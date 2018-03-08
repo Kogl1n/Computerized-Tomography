@@ -11,6 +11,8 @@ ct.m: Script creating a crescend-shaped object and performing the Radon transfor
 convp.m: (circular) convolution h of the discrete N-periodic functions f and g.
 convp2.m: discrete convolution of N-periodic function f (as row vector) and NxM matrix A
 backproj1.m: Main Script performing the backprojection.
+
+kaczmarz.m: Performs the reconstruction using the Algebraic Reconstruction Technique (ART).
 ```
 
 # Example
