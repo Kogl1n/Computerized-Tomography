@@ -27,7 +27,7 @@ imshow(Rf)
 title('sinogram'); ylabel('\theta'); xlabel('t')
 
 % Ram-Lak-Filter
-n=-20:20;
+n=-20:20; % 41 values corresponding to the number of values of t.
 rlf=irlf(L,n);
 subplot(2,2,3)
 plot(rlf)
