@@ -1,7 +1,7 @@
 function f= irlf(L,n)
-% F^-1 of Ram-Lak-Filter
-% page 72
+% Inverse Fouriertransform values F^-1 of the Ram-Lak-Filter
 % 0: L^2/(2*pi); !=0, even: 0; !=0, odd: -2*L^2/(pi^3*n^2)
+% Input: L the border, n time pi
 for i=1:length(n)
     if n(i)==0
        f(i)=L^2/(2*pi);
