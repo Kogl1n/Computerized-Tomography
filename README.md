@@ -26,13 +26,13 @@ kaczmarz.m: Performs the reconstruction using the Algebraic Reconstruction Techn
 The following images show a comparison between performing a convolution with convp.m with N=18 and N=36 where N constitutes the number of discrete angular CT measurements. It is also possible to change the distances of the dectector array resulting in fine grained backprojections in case of smaller distances or coarse grained otherwise which result with interpolation in blurry images.
 
 ## FBP (using convp) with N=18:
-![Backprojection18](https://github.com/Kogl1n/Computerized-Tomography/raw/master/Crescend-Shaped%20Backprojection%20%20for%20N%3D18with%20convp1.png)
+![Backprojection18](https://github.com/Kogl1n/Computerized-Tomography/raw/master/image/Crescend-Shaped%20Backprojection%20%20for%20N%3D18with%20convp1.png)
 ##  FBP  with N=36:
-![Backprojection36](https://github.com/Kogl1n/Computerized-Tomography/raw/master/Crescend-Shaped%20Backprojection%20%20for%20N%3D36with%20convp1.png)
+![Backprojection36](https://github.com/Kogl1n/Computerized-Tomography/raw/master/image/Crescend-Shaped%20Backprojection%20%20for%20N%3D36with%20convp1.png)
 
 ## Fourier-Domain Reconstruction Algorithm (using convp2) N=18:
-![Backprojection182](https://github.com/Kogl1n/Computerized-Tomography/raw/master/Crescend-Shaped%20Backprojection%20%20for%20N%3D18with%20convp2.png)
+![Backprojection182](https://github.com/Kogl1n/Computerized-Tomography/raw/master/image/Crescend-Shaped%20Backprojection%20%20for%20N%3D18with%20convp2.png)
 ## Fourier-Domain Reconstruction Algorithm (using convp2) N=36:
-![Backprojection362](https://github.com/Kogl1n/Computerized-Tomography/raw/master/Crescend-Shaped%20Backprojection%20%20for%20N%3D36with%20convp2.png)
+![Backprojection362](https://github.com/Kogl1n/Computerized-Tomography/raw/master/image/Crescend-Shaped%20Backprojection%20%20for%20N%3D36with%20convp2.png)
 
 
