@@ -29,7 +29,9 @@ xlabel('x'); ylabel('y');
 theta=linspace(0,pi,N);%equivalent to k*pi/N
 t=[-1:d:1];
 [T,Theta]=meshgrid(t,theta);
-Rf=radon_cs(T,Theta);
+tt=abs(T-1/8*cos(Theta));
+Rf=2*sqrt(1/4-abs(T).^2).*(abs(T)<=1/2)-sqrt(9/64-(tt).^2).*(tt<=3/8);
+
 
 subplot(2,2,2)
 imshow(Rf)
