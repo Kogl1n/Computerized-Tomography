@@ -4,6 +4,8 @@ For further information on the mathematical background, please read https://en.w
 
 Software used in production are https://github.com/odlgroup/odl and https://github.com/tomopy/tomopy/ with GPU support and several other reconstruction and artifact supression methods.
 
+Industrial applications are for instance crack and defect detection, c.f. https://en.wikipedia.org/wiki/Industrial_computed_tomography. In those cases it is likely that we have an incomplete data problem due to too broad pieces or too absorbing materials or thick walls.
+
 ## Note: 
 The main obstacle was that the discrete circular convolution (which also has negative indices) was incompatible with the provided definition of the inverse Fourier transform of the lowpass filter, which lead to a flawed but somehow recognizable result. It is mirrored which gave us the hint for changing sides of the filter.
 ![wrong](https://github.com/Kogl1n/Computerized-Tomography/raw/master/wrong.png)
