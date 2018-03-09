@@ -13,7 +13,7 @@ The main obstacle was that the discrete circular convolution (which also has neg
 
 # Files
 ```
-ct.m: Script creating a crescend-shaped object and performing the Radon transform on it.
+irlf.m: function providing the inverse Fourier transform of the Ram-Lak-Lowpass-Filter.
 convp.m: (Circular) convolution h of the discrete N-periodic functions f and g. 
           Used to compute the conv. for every angle.
 convp2.m: Discrete convolution of N-periodic function f (as row vector) and NxM matrix A. 
