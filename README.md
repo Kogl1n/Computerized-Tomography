@@ -8,7 +8,7 @@ Industrial applications are for instance crack and defect detection, c.f. https:
 
 ## Note: 
 The main obstacle was that the discrete circular convolution (which also has negative indices) was incompatible with the provided definition of the inverse Fourier transform of the lowpass filter, which lead to a flawed but somehow recognizable result. It is mirrored which gave us the hint for changing sides of the filter.
-![wrong](https://github.com/Kogl1n/Computerized-Tomography/raw/master/images/wrong.png)
+![wrong](https://github.com/Kogl1n/Computerized-Tomography/raw/master/images/wrong.png=250x250)
 
 # Files
 ```
