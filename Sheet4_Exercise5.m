@@ -38,7 +38,7 @@ ylabel('\theta')
 xlabel('t')
 %% 4.)Filterdata
 n=-20:20;
-rlf=ift_rlf(L,n);
+rlf=irlf(L,n);
 
 
 subplot(2,2,3)
