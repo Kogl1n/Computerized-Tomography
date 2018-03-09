@@ -18,6 +18,8 @@ convp.m: (Circular) convolution h of the discrete N-periodic functions f and g.
           Used to compute the conv. for every angle.
 convp2.m: Discrete convolution of N-periodic function f (as row vector) and NxM matrix A. 
           Used to compute the conv for all angles at the same time.
+          
+Exercise_1_2.m: Sets up crescent shaped region, performs and plots Radon transform.
 Exercise_3_5.m: Main Script performing the filtered backprojection (FBP) using convp.m or convp2.m.
 
 kaczmarz.m: Performs the reconstruction using the Algebraic Reconstruction Technique (ART).
