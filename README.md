@@ -30,12 +30,12 @@ The following images show a comparison between performing a convolution with con
 
 ## FBP (using convp) with N=18:
 ![Backprojection18](https://github.com/Kogl1n/Computerized-Tomography/raw/master/images/Crescend-Shaped%20Backprojection%20%20for%20N%3D18with%20convp1.png)
-##  FBP  with N=36:
+## FBP (using convp) with N=36:
 ![Backprojection36](https://github.com/Kogl1n/Computerized-Tomography/raw/master/images/Crescend-Shaped%20Backprojection%20%20for%20N%3D36with%20convp1.png)
 
-## Fourier-Domain Reconstruction Algorithm (using convp2) N=18:
+## FBP (using convp2) with N=18
 ![Backprojection182](https://github.com/Kogl1n/Computerized-Tomography/raw/master/images/Crescend-Shaped%20Backprojection%20%20for%20N%3D18with%20convp2.png)
-## Fourier-Domain Reconstruction Algorithm (using convp2) N=36:
+## FBP (using convp2) with N=36:
 ![Backprojection362](https://github.com/Kogl1n/Computerized-Tomography/raw/master/images/Crescend-Shaped%20Backprojection%20%20for%20N%3D36with%20convp2.png)
 
 
